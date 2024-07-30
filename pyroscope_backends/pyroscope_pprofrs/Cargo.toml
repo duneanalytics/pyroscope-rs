@@ -15,7 +15,7 @@ readme = "README.md"
 
 
 [dependencies]
-pprof = "0.12"
+pprof = { git = "https://github.com/duneanalytics/pprof-rs", branch = "fix-pointer-align" }
 pyroscope = { version = "0.5.7", path = "../../", default-features = false }
 thiserror ="1.0"
 log = "0.4"
@@ -25,6 +25,4 @@ default = ["pyroscope/default"]
 frame-pointer = ["pprof/frame-pointer"]
 
 [target.aarch64-apple-darwin.dependencies]
-pprof = { version = "0.12", features = ["frame-pointer"] }
-
-
+pprof = { git = "https://github.com/duneanalytics/pprof-rs", branch = "fix-pointer-align", features = ["frame-pointer"] }
