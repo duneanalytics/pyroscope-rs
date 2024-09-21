@@ -24,6 +24,7 @@ You may be looking for:
 - [Profiling Backends](#profiling-backends)
 - [Limitations](#limitations)
 - [Getting Help](#getting-help)
+- [Major Contributors](#major-contributors)
 - [License](#license)
 
 ### Quick Start
